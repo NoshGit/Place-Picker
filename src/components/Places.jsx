@@ -1,5 +1,3 @@
-import { log } from './log.js';
-
 export default function Places({
   title,
   places,
@@ -8,7 +6,7 @@ export default function Places({
   isLoading,
   loadingText,
 }) {
-  log(places);
+  console.log(places);
   return (
     <section className="places-category">
       <h2>{title}</h2>
